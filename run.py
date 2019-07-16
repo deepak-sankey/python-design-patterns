@@ -1,4 +1,8 @@
-# run.py
+"""
+Author      : Deepak Terse
+Created At  : 15 July 2019
+Description : The invocation point of the app
+"""
 
 from app import app
 

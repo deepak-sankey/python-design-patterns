@@ -1,4 +1,8 @@
-# app/__init__.py
+"""
+Author      : Deepak Terse
+Created At  : 15 July 2019
+Description : A flask application is initialised here
+"""
 
 from flask import Flask
 
