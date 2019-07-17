@@ -105,6 +105,15 @@ bowlerInfoArray = [
     }
 ]
 
+#app/static/team.json
+teamInfoArray = [
+    {
+        "id" : "1",
+        "name" : "India",
+        "selected15" : ["1","2","3","4","5"]
+    }
+]
+
 #Class Definitions
 #app/models/player.py
 class Player:
@@ -178,6 +187,16 @@ class Bowler:
 
     # def __init__(self):
 
+class Team:
+    id = ""
+    name = ""
+    selected15 = []
+
+    def __init__(self,team):
+        self.id = team["id"]
+        self.name = team["name"]
+        self.selected15 = team["selected15"]
+
 
 #Reusable Methods
 #app/functions/query.py
@@ -189,10 +208,13 @@ def getAllPlayers():
 
     return playersArray
 
+def getAllTeams():
+    teamsArray = []
+    for team in teamInfoArray:
+        teamObj = Team(team)
+        teamsArray.append(json.loads(json.dumps(teamObj.__dict__)))
 
-#Main Execution
-# print("Main Execution started : ", getAllPlayers())
-
+    return teamsArray
 
 # Views:
 @app.route('/')
@@ -201,15 +223,16 @@ def index():
 
 @app.route('/viewPlayers', methods=['GET'])
 def viewPlayers():
-    # print(getAllPlayers())
-    print("@@@@@@@@@@@@@@@@@@@@@@@@")
     responseData = {
         "response" : getAllPlayers()
     }
-    # AllPlayersInfo = json.dumps(responseData)
-    # print(len(AllPlayersInfo))
-    # print("==============",AllPlayersInfo[1])
+    
+    return jsonify(responseData)
 
-    # print(AllPlayersInfo)
+@app.route('/selectPlayer', methods=['GET'])
+def selectPlayer():
+    responseData = {
+        "response" : getAllTeams()
+    }
     
     return jsonify(responseData)
