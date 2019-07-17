@@ -8,7 +8,7 @@ class Bowler:
     wickets = 0
     maidens = 0
     
-    def __init__(self):
+    # def __init__(self):
         
 
 

@@ -11,7 +11,7 @@ class Batsmen:
     Fifties = 0
     Hundreds = 0
 
-    def __init__(self):
+    # def __init__(self):
         
 
 

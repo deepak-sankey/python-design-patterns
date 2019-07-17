@@ -1,15 +1,14 @@
-class Player:
+class Bowler:
     id = ""
-    name = ""
-    role = ""
-    battingStyle = ""
-    bowlingStyle = ""
-    country = ""
-    battingInfo = {}
-    bowlingInfo = {}
-    isDeleted = False
-
-    def __init__(self):
+    playerId = ""
+    matches = 0
+    innings = 0
+    runs = 0
+    balls = 0
+    wickets = 0
+    maidens = 0
+    
+    # def __init__(self):
         
 
 
