@@ -1,0 +1,26 @@
+[
+    {
+        "id" : "1",
+        "playerId" : "1",
+        "matches" : 10,
+        "innings" : 10,
+        "runs" : 550,
+        "balls" : 450
+    },
+    {
+        "id" : "2",
+        "playerId" : "2",
+        "matches" : 10,
+        "innings" : 10,
+        "runs" : 350,
+        "balls" : 410
+    },
+    {
+        "id" : "3",
+        "playerId" : "3",
+        "matches" : 10,
+        "innings" : 10,
+        "runs" : 250,
+        "balls" : 250
+    }
+]
