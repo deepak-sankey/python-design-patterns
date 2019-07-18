@@ -17,7 +17,7 @@ Application should also allow to view the team members with all filters.
    5. All functionalities should be exposed as Rest API's.
 
 
-## Getting Started: 
+## Getting Started:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -62,7 +62,7 @@ A step by step series of examples that tell you how to get a development env run
 
 ## Authors
 
-* **Deepak Terse** - [Deepak - Sankey](https://github.com/deepak-sankey)
+* **Deepak Terse** : [Deepak-Sankey](https://github.com/deepak-sankey)
 
 See also the list of [contributors](https://github.com/deepak-sankey/python-design-patterns/graphs/contributors) who participated in this project.
 
