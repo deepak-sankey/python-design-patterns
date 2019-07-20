@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "playerId": "1",
+        "matches": 215,
+        "innings": 209,
+        "runs": 8658,
+        "balls": 9766
+    },
+    {
+        "id": "2",
+        "playerId": "2",
+        "matches": 130,
+        "innings": 129,
+        "runs": 5480,
+        "balls": 5830
+    },
+    {
+        "id": "3",
+        "playerId": "3",
+        "matches": 350,
+        "innings": 297,
+        "runs": 10773,
+        "balls": 12303
+    },
+    {
+        "id": "4",
+        "playerId": "6",
+        "matches": 236,
+        "innings": 228,
+        "runs": 11286,
+        "balls": 12135
+    },
+    {
+        "id": "5",
+        "playerId": "7",
+        "matches": 23,
+        "innings": 22,
+        "runs": 704,
+        "balls": 890
+    },
+    {
+        "id": "6",
+        "playerId": "8",
+        "matches": 94,
+        "innings": 79,
+        "runs": 1752,
+        "balls": 2392
+    },
+    {
+        "id": "7",
+        "playerId": "12",
+        "matches": 9,
+        "innings": 8,
+        "runs": 209,
+        "balls": 201
+    },
+    {
+        "id": "8",
+        "playerId": "13",
+        "matches": 54,
+        "innings": 38,
+        "runs": 957,
+        "balls": 828
+    },
+    {
+        "id": "9",
+        "playerId": "16",
+        "matches": 12,
+        "innings": 8,
+        "runs": 223,
+        "balls": 246
+    },
+    {
+        "id": "10",
+        "playerId": "18",
+        "matches": 10,
+        "innings": 10,
+        "runs": 250,
+        "balls": 290
+    },
+    {
+        "id": "11",
+        "playerId": "19",
+        "matches": 65,
+        "innings": 45,
+        "runs": 1254,
+        "balls": 1244
+    },
+    {
+        "id": "12",
+        "playerId": "20",
+        "matches": 55,
+        "innings": 50,
+        "runs": 1694,
+        "balls": 2143
+    }
+]

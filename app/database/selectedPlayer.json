@@ -1,0 +1,152 @@
+[
+    {
+        "id": "6",
+        "name": "Virat Kohli",
+        "role": "Batsman",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm medium",
+        "country": "India",
+        "playerId": "6",
+        "team": "India"
+    },
+    {
+        "id": "7",
+        "name": "KL Rahul",
+        "role": "WK-Batsman",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm medium",
+        "country": "India",
+        "playerId": "7",
+        "team": "India"
+    },
+    {
+        "id": "11",
+        "name": "Bhuvneshwar Kumar",
+        "role": "Bowler",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm fast-medium",
+        "country": "India",
+        "playerId": "11",
+        "team": "India"
+    },
+    {
+        "id": "1",
+        "name": "Rohit Sharma",
+        "role": "Batsman",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "country": "India",
+        "playerId": "1",
+        "team": "India"
+    },
+    {
+        "id": "2",
+        "name": "shikhar Dhawan",
+        "role": "Batsman",
+        "battingStyle": "Left Handed Bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "country": "India",
+        "playerId": "2",
+        "team": "India"
+    },
+    {
+        "id": "3",
+        "name": "Mahendrasingh Dhoni",
+        "role": "WK-Batsman",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm medium",
+        "country": "India",
+        "playerId": "3",
+        "team": "India"
+    },
+    {
+        "id": "4",
+        "name": "Jasprit Bumrah",
+        "role": "Bowler",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm fast-medium",
+        "country": "India",
+        "playerId": "4",
+        "team": "India"
+    },
+    {
+        "id": "5",
+        "name": "Yuzvendra Chahal",
+        "role": "Bowler",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm legbreak",
+        "country": "India",
+        "playerId": "5",
+        "team": "India"
+    },
+    {
+        "id": "9",
+        "name": "Kuldeep Yadav",
+        "role": "Bowler",
+        "battingStyle": "Left Handed Bat",
+        "bowlingStyle": "Left-arm chinaman",
+        "country": "India",
+        "playerId": "9",
+        "team": "India"
+    },
+    {
+        "id": "13",
+        "name": "Hardik Pandya",
+        "role": "Batsman",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm fast-medium",
+        "country": "India",
+        "playerId": "13",
+        "team": "India"
+    },
+    {
+        "id": "14",
+        "name": "Ravindra Jadeja",
+        "role": "Bowler",
+        "battingStyle": "Left Handed Bat",
+        "bowlingStyle": "Left-arm orthodox",
+        "country": "India",
+        "playerId": "14",
+        "team": "India"
+    },
+    {
+        "id": "15",
+        "name": "Khaleel Ahmed",
+        "role": "Bowler",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Left-arm fast-medium",
+        "country": "India",
+        "playerId": "15",
+        "team": "India"
+    },
+    {
+        "id": "16",
+        "name": "Vijay Shankar",
+        "role": "Batsman",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm medium",
+        "country": "India",
+        "playerId": "16",
+        "team": "India"
+    },
+    {
+        "id": "18",
+        "name": "Mayank Agarwal",
+        "role": "Batsman",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm legbreak",
+        "country": "India",
+        "playerId": "18",
+        "team": "India"
+    },
+    {
+        "id": "19",
+        "name": "Kedar Jadhav",
+        "role": "Batsman",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm offbreak",
+        "country": "India",
+        "playerId": "19",
+        "team": "India"
+    }
+]
