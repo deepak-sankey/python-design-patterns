@@ -1,0 +1,32 @@
+[
+    {
+        "id": "6",
+        "name": "Virat Kohli",
+        "role": "Batsman",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm medium",
+        "country": "India",
+        "playerId": "6",
+        "team": "India"
+    },
+    {
+        "id": "7",
+        "name": "KL Rahul",
+        "role": "WK-Batsman",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm medium",
+        "country": "India",
+        "playerId": "7",
+        "team": "India"
+    },
+    {
+        "id": "11",
+        "name": "Bhuvneshwar Kumar",
+        "role": "Bowler",
+        "battingStyle": "Right Handed Bat",
+        "bowlingStyle": "Right-arm fast-medium",
+        "country": "India",
+        "playerId": "11",
+        "team": "India"
+    }
+]
