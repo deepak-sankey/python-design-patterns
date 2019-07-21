@@ -1,0 +1,42 @@
+[
+    {
+		"id" : "1",
+        "name" : "Rohit Sharma",
+        "role" : "Batsman",
+        "battingStyle" : "Right Handed Bat",
+        "bowlingStyle" : "Right-arm offbreak",
+        "country" : "India"
+	},
+    {
+		"id" : "2",
+        "name" : "shikhar Dhawan",
+        "role" : "Batsman",
+        "battingStyle" : "Left Handed Bat",
+        "bowlingStyle" : "Right-arm offbreak",
+        "country" : "India"
+	},
+    {
+		"id" : "3",
+        "name" : "Mahendrasingh Dhoni",
+        "role" : "WK-Batsman",
+        "battingStyle" : "Right Handed Bat",
+        "bowlingStyle" : "Right-arm medium",
+        "country" : "India"
+	},
+    {
+		"id" : "4",
+        "name" : "Jasprit Bumrah",
+        "role" : "Bowler",
+        "battingStyle" : "Right Handed Bat",
+        "bowlingStyle" : "Right-arm fast-medium",
+        "country" : "India"
+	},
+    {
+		"id" : "5",
+        "name" : "Yuzvendra Chahal",
+        "role" : "Bowler",
+        "battingStyle" : "Right Handed Bat",
+        "bowlingStyle" : "Right-arm legbreak",
+        "country" : "India"
+	}
+]
