@@ -37,4 +37,5 @@ class PlayerInformation:
     # Args player info and playertype
     def serialize(self,player, playerType):
         playerTypeObject = playerFactory.getPlayerType(playerType)
+
         return playerTypeObject.addPlayer(player)

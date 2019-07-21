@@ -5,8 +5,8 @@ Description : Class definition for model Bowler
 """
 
 from app.models.player import Player
-
-class Bowler(Player):
+import json
+class Bowler:
     id = ""
     playerId = ""
     matches = 0
@@ -16,11 +16,23 @@ class Bowler(Player):
     wickets = 0
     bowlingAverage = 0
     bowlingAverage = 0
+    name = ""
+    role = ""
+    battingStyle = ""
+    bowlingStyle = ""
+    country = ""
+    battingInfo = {}
+    bowlingInfo = {}
+    isDeleted = False
 
-    def __init__(self, player, bowler):
-        super().__init__(player)
+    def addPlayer(self,bowler):
 
         self.id = bowler["id"]
+        self.name = bowler["name"]
+        self.role = bowler["role"]
+        self.battingStyle = bowler["battingStyle"]
+        self.bowlingStyle = bowler["bowlingStyle"]
+        self.country = bowler["country"]
         self.playerId = bowler["playerId"]
         self.matches = bowler["matches"]
         self.innings = bowler["innings"]
@@ -29,3 +41,5 @@ class Bowler(Player):
         self.wickets = bowler["wickets"]
         self.bowlingAverage = bowler["runs"]/bowler["wickets"]
         self.bowlingStrikeRate = bowler["balls"]/bowler["wickets"]
+        return self
+
