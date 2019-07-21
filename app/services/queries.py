@@ -11,6 +11,7 @@ from app.models.bowler import Bowler
 
 #Services
 from app.services.utils import read_json_data
+from app.services.playerInterface import PlayerInformation
 
 #Libraries
 import json
@@ -42,11 +43,17 @@ def createPlayer(player):
 
     #It returns the respective object depending on the role of the Player
     if player["role"] == "Batsman" or player["role"] == "WK-Batsman" or player["role"] == "Allrounder":
-        battingInfo = list(filter(lambda item: player["id"] == item["playerId"], batsmenInfoArray))[0];
-        return Batsman(player, battingInfo)
-    else:
-        bowlingInfo = list(filter(lambda item: player["id"] == item["playerId"], bowlerInfoArray))[0];
-        return Bowler(player, bowlingInfo)
+        playerInfo = list(filter(lambda item: player["id"] == item["playerId"], batsmenInfoArray))[0]
+    else :
+        playerInfo = list(filter(lambda item: player["id"] == item["playerId"], bowlerInfoArray))[0]
+
+    player.update(playerInfo)
+    playerInterace = PlayerInformation()
+    return playerInterace.serialize(player,player["role"].upper())
+     #   return Batsman(player, battingInfo)
+    #else:
+     #   bowlingInfo = list(filter(lambda item: player["id"] == item["playerId"], bowlerInfoArray))[0]
+      #  return Bowler(player, bowlingInfo)
 
 
 #Model: Batsman
