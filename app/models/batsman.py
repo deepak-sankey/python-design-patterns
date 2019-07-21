@@ -5,9 +5,8 @@ Description : Class definition for model Batsman
 """
 
 from app.models.player import Player
-import json
 
-class Batsman:
+class Batsman(Player):
     id = ""
     playerId = ""
     matches = 0
@@ -16,27 +15,15 @@ class Batsman:
     balls = 0
     battingAverage = 0
     battingStrikeRate = 0
-    name = ""
-    role = ""
-    battingStyle = ""
-    bowlingStyle = ""
-    country = ""
-    battingInfo = {}
-    bowlingInfo = {}
-    isDeleted = False
 
-    def addPlayer(self,batsman):
+    def __init__(self, player, batsman):
+        super().__init__(player)
+
         self.id = batsman["id"]
-        self.name = batsman["name"]
-        self.role = batsman["role"]
-        self.battingStyle = batsman["battingStyle"]
-        self.bowlingStyle = batsman["bowlingStyle"]
-        self.country = batsman["country"]
         self.playerId = batsman["playerId"]
         self.matches = batsman["matches"]
         self.innings = batsman["innings"]
         self.runs = batsman["runs"]
         self.balls = batsman["balls"]
         self.battingAverage = batsman["runs"]/batsman["innings"]
-        self.battingStrikeRate = batsman["runs"]*100/batsman["balls"]       
-        return self
+        self.battingStrikeRate = batsman["runs"]*100/batsman["balls"]
