@@ -11,12 +11,17 @@ from app.models.player import Player
 from app.models.batsman import Batsman
 from app.models.bowler import Bowler
 
+# Author : Vishal Panchal
+# This is class of selectedPlayer with __init__ function to add new player if the player is selected
 class selectedPlayer(Player):
     playerId = ""
     name = ""
     role = ""
     team = ""
 
+    # Author : Vishal Panchal
+    # Return selectedPlayer objects
+    # Args Player dictionary
     def __init__(self, player):
         super().__init__(player)
 
@@ -24,3 +29,4 @@ class selectedPlayer(Player):
         self.name = player["name"]
         self.role = player["role"]
         self.team = player["country"]
+        return self

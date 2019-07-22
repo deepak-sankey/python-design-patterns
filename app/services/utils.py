@@ -1,7 +1,7 @@
 """
 Author      : Vishal Panchal
 Created At  : 17 July 2019
-Description : To read the JSON file and return the data
+Description : To read and write the JSON file
 """
 
 import json

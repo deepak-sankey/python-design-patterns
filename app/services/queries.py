@@ -142,11 +142,10 @@ def getAllBowlers():
        }
         return jsonify(result)
 
-
-#Model: SelectedPlayer
-#Author: Vishal Panchal
-#Created At: 20 July 2019
-
+# Author : Vishal Panchal
+# This function is to check if a player is already present in selected player JSON
+# Arg - Player Id
+# Returns : Boolean value
 def isPlayerPresentInSelectedPlayer(playerId):
     playerPresent = False
     selectedPlayerArray = readSelectedPlayerJson()
@@ -156,14 +155,26 @@ def isPlayerPresentInSelectedPlayer(playerId):
     
     return playerPresent
 
+# Author : Vishal Panchal
+# This function is for read JSON data of selectedPlayer and return it as array format.
+# Arg - Nothing
+# Returns : SelectedPlayer JSON
 def readSelectedPlayerJson():
     return read_json_data(os.path.join(os.path.dirname(os.path.realpath(__file__)), PATH_TO_SELECTEDPLAYER_JSON))
 
+# Author : Vishal Panchal
+# This function is for read JSON data of selectedPlayer and return it as array format.
+# Arg - Nothing
+# Returns : SelectedPlayer JSON
 def getSelectedPlayers():
     selectedPlayersArray = readSelectedPlayerJson()
 
     return selectedPlayersArray
 
+# Author : Vishal Panchal
+# This function adds a player in selectedPlayer JSON file
+# Arg - Player Id
+# Returns : String based on the condition
 def addSelectedPlayer(playerId):
     response = ""
     fetchPlayer = getPlayer(playerId)
@@ -206,6 +217,10 @@ def addSelectedPlayer(playerId):
 
     return response
 
+# Author : Vishal Panchal
+# This function removes a player from selectedPlayer JSON file
+# Arg - Player Id
+# Returns : String based on the condition
 def removeSelectedPlayer(playerId):
     reponse = ""
     if(isPlayerPresentInSelectedPlayer(playerId)):
@@ -225,12 +240,19 @@ def removeSelectedPlayer(playerId):
 
     return response
 
+# Author : Vishal Panchal
+# This function returns number of players present in selectedPlayer JSON file
+# Arg - Nothing
+# Returns : length of array
 def getSelectedPlayerCount():
-    count = 0
     selectedPlayerArray = readSelectedPlayerJson()
 
     return len(selectedPlayerArray)
 
+# Author : Vishal Panchal
+# This function returns number of batsmen present in selectedPlayer JSON file
+# Arg - Nothing
+# Returns : count
 def getBatsmanCount():
     count = 0
     batsmenArray = readSelectedPlayerJson()
@@ -240,6 +262,10 @@ def getBatsmanCount():
 
     return count
 
+# Author : Vishal Panchal
+# This function returns number of bowlers present in selectedPlayer JSON file
+# Arg - Nothing
+# Returns : count
 def getBowlerCount():
     count = 0
     bowlerArray = readSelectedPlayerJson()
@@ -249,6 +275,10 @@ def getBowlerCount():
     
     return count
 
+# Author : Vishal Panchal
+# This function returne number of WK-batsmen present in selectedPlayer JSON file
+# Arg - Nothing
+# Returns : count
 def getWKCount():
     count = 0
     wkArray = readSelectedPlayerJson()
