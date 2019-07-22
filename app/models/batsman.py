@@ -1,12 +1,16 @@
 """
 Author      : Deepak Terse
 Created At  : 17 July 2019
+Modified At : 21 July 2019 
 Description : Class definition for model Batsman
 """
 
 from app.models.player import Player
 import json
 
+
+# Author : Deepak Terse
+# This is class of Batsman with addPlayer function to add new player if player is batsman
 class Batsman:
     id = ""
     playerId = ""
@@ -25,6 +29,9 @@ class Batsman:
     bowlingInfo = {}
     isDeleted = False
 
+    # Author : Deepak Terse
+    # Return batsman objects
+    # Args Batsman dictionary
     def addPlayer(self,batsman):
         print(batsman)
         self.id = batsman["id"]

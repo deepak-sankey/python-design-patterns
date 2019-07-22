@@ -1,11 +1,15 @@
 """
 Author      : Deepak Terse
 Created At  : 17 July 2019
+Modified At : 21 July 2019 
 Description : Class definition for model Bowler
 """
 
 from app.models.player import Player
 import json
+
+# Author : Deepak Terse
+# This is class of Bowler with addPlayer function to add new player if player is bowler
 class Bowler:
     id = ""
     playerId = ""
@@ -25,8 +29,10 @@ class Bowler:
     bowlingInfo = {}
     isDeleted = False
 
+    # Author : Deepak Terse
+    # Return bowler objects
+    # Args bowler dictionary
     def addPlayer(self,bowler):
-
         self.id = bowler["id"]
         self.name = bowler["name"]
         self.role = bowler["role"]
